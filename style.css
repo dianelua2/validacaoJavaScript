@@ -1,12 +1,12 @@
 span {
-    display:none;
+    display: none;
     font-size: 0.8em;
-
-}
-span.visible {
-    display:block;
-}
-input.invalid {
+  }
+  
+  span.visible {
+    display: block;
+  }
+  
+  input.invalid {
     border-color: red;
-}
-
+  }

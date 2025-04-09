@@ -9,14 +9,15 @@
 </head>
 <body>
     <main>
-    <form>
-        <label for="firstname">Primeiro nome</label>
-        <input type="text" name="firstname" placeholder="digite seu nome aqui" id="firstname">
-        <button type="submit">enviar</button>
-        <span role="alert" aria-hidden="true">
-            Por favor informe o primeiro nome
-        </span>
-    </form>
+        <form id="form">
+            <label for="firstname"> Primeiro Nome* </label>
+            <input type="text" name="firstname" id="firstname"  placeholder="digite seu nome aqui"/>
+            <button type="submit">Enviar</button>
+          
+            <span role="alert" aria-hidden="true">
+              Por favor digite o nome corretamente
+            </span>
+          </form>
 </main>
 <script type="module" src="script.js"></script>
 </body>
